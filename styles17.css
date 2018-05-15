@@ -122,7 +122,7 @@ body {
 
 .lead-top-2 {
 padding: 10px;
-    margin-top: -90px;
+    margin-top: -60px;
 	grid-column: 3 / 5;
 	grid-row: 2 / 3;
 	z-index: -1;
@@ -140,6 +140,7 @@ padding: 10px;
 
 /* INÍCIO CTA1 */
 .cta1-container {
+	padding: 0 10px;
 	background-color: #1D2E38;
 	position: relative;
     display: grid;
@@ -1439,7 +1440,7 @@ padding: 10px;
 }
 
 .line1-testo-queda {
-	grid-column: 1 / 4;
+	grid-column: 2 / 3;
 	grid-row: 5 / 6;
 	height: 2px;
 	background-color: #fff;
@@ -1586,7 +1587,7 @@ padding: 10px;
 
 
 .line2-testo-queda {
-	grid-column: 1 / 4;
+	grid-column: 2 / 3;
 	grid-row: 31 / 32;
 	height: 2px;
 	margin-top: 20px;
@@ -1823,7 +1824,7 @@ padding: 10px;
 /* ---------------------------------- FIM BLOCO PORCENTAGEM ---------------------------------- */
 
 
-.cta7-container {
+.cta9-container {
 	background-color: #7d87a2;
     position: relative;
     display: grid;
@@ -2096,7 +2097,7 @@ padding: 10px;
 /* INÍCIO CTA 10 */
 
 .cta10-container {
-	margin-top: -10px;
+	margin-top: -4px;
 	background-color: #8a56e9;
     position: relative;
     display: grid;
@@ -2239,7 +2240,7 @@ padding: 10px;
 .item-anvisa-texto1 p {
 	text-align: center;
 	color: #000;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 }
 .anvisa-icons {
 	line-height: 120%;
