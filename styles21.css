@@ -136,7 +136,7 @@ body {
 .grid-lead {
 	display: block;
     box-sizing: border-box;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	padding: 5px;
 	text-align: right;
 	margin-bottom: 10px;
@@ -1327,7 +1327,7 @@ padding: 10px;
 .badges3 {
 	grid-column: 3 / 4;
 	grid-row: 5 / 6;
-	margin-top: 14px;
+	margin-top: 13px;
 }
 
 .badges4 {
@@ -1345,7 +1345,7 @@ padding: 10px;
 .badges6 {
 	grid-column: 3 / 4;
 	grid-row: 7 / 8;
-		margin-top: 5px;
+		margin-top: 7px;
 }
 
 
