@@ -2318,6 +2318,7 @@ padding: 10px;
 }
 
 .grid-lead1-faq {
+	z-index: 1;
 	text-align: center;
 	align-items: center;
   	display: flex;

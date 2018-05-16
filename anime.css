@@ -52,14 +52,54 @@
 
 
 .left-right-width-anime {
-	opacity: 0;
-	transform: translateX(-50px);
+	opacity: 1;
+	width: 0;
 	transition: all 1s ease-out;
 }
 .left-right-width-anime.left-right-width-anime-show {
-		transform: translateX(0);
+	width: 83%;
 	opacity: 1;
 }
+
+
+
+.anime-pack-barra {
+	opacity: 1;
+	width: 0;
+	transition: all 1s ease-out;
+}
+.anime-pack-barra.anime-pack-barra-show {
+	width: 96%;
+	opacity: 1;
+}
+
+
+.anime-satsifacao-barra {
+	opacity: 1;
+	width: 0;
+	transition: all 1s ease-out;
+}
+.anime-satsifacao-barra.anime-satsifacao-barra-show {
+	width: 78%;
+	opacity: 1;
+}
+
+
+.anime-delivery-barra {
+	opacity: 1;
+	width: 0;
+	transition: all 1s ease-out;
+}
+.anime-delivery-barra.anime-delivery-barra-show {
+	width: 82%;
+	opacity: 1;
+}
+
+
+
+
+
+
 
 
 
