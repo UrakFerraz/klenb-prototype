@@ -51,27 +51,11 @@ $(document).ready(function(){
 	.addTo(controller);
 
 
-		// Contruir a Cena
+					// Contruir a Cena
 	var scene = new ScrollMagic.Scene({
-		triggerElement: '.anime-pack-barra'
+		triggerElement: '.fade-in-anime'
 	})
-	.setClassToggle('.anime-pack-barra', 'anime-pack-barra-show') // adicionar classe para o projeto
-	.addTo(controller);
-
-
-			// Contruir a Cena
-	var scene = new ScrollMagic.Scene({
-		triggerElement: '.anime-satisfacao-barra'
-	})
-	.setClassToggle('.anime-satisfacao-barra', 'anime-satisfacao-barra-show') // adicionar classe para o projeto
-	.addTo(controller);
-
-
-				// Contruir a Cena
-	var scene = new ScrollMagic.Scene({
-		triggerElement: '.anime-delivery-barra'
-	})
-	.setClassToggle('.anime-delivery-barra', 'anime-delivery-barra-show') // adicionar classe para o projeto
+	.setClassToggle('.fade-in-anime', 'fade-in-anime-show') // adicionar classe para o projeto
 	.addTo(controller);
 
 

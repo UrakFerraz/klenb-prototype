@@ -22,7 +22,7 @@
 
 .up-down-anime-slow {
 	opacity: 0;
-	transform: translateY(-100px);
+	transform: translateY(100px);
 	transition: all 1s ease-out;
 }
 .up-down-anime-slow.up-down-anime-slow-show {
@@ -61,43 +61,13 @@
 	opacity: 1;
 }
 
-
-
-.anime-pack-barra {
-	opacity: 1;
-	width: 0;
-	transition: all 1s ease-out;
+.fade-in-anime {
+	opacity: 0;
+	transition: all 400ms ease-out;
 }
-.anime-pack-barra.anime-pack-barra-show {
-	width: 96%;
+.fade-in-anime.fade-in-anime-show {
 	opacity: 1;
 }
-
-
-.anime-satsifacao-barra {
-	opacity: 1;
-	width: 0;
-	transition: all 1s ease-out;
-}
-.anime-satsifacao-barra.anime-satsifacao-barra-show {
-	width: 78%;
-	opacity: 1;
-}
-
-
-.anime-delivery-barra {
-	opacity: 1;
-	width: 0;
-	transition: all 1s ease-out;
-}
-.anime-delivery-barra.anime-delivery-barra-show {
-	width: 82%;
-	opacity: 1;
-}
-
-
-
-
 
 
 

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width" />
 
@@ -9,14 +8,17 @@
   <meta name="keywords" content="criação de landing page usando recursos de css grid layout, croll magic e gsap animation">
   <meta name="author" content="Urak Ferraz">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>PROTPTYPE TEST CSS GRID</title>
+		<title>PROTOTYPE TEST CSS GRID</title>
 
 <!-- INÍCIO ESTILO -->
-		<link href="styles21.css" rel="stylesheet">
+		<link href="styles23.css" rel="stylesheet">
 <!-- FIM ESTILO -->
 <!-- INÍCIO MEDIA QUERIES-->
-		<link href="mediaqueries9.css" rel="stylesheet">
+		<link href="mediaqueries11.css" rel="stylesheet">
 <!-- FIM MEDIA QUERIES-->
+<!-- INÍCIO SCROLL MAGIC ANIMATIONS-->
+		<link href="anime.css" rel="stylesheet">
+<!-- FIM SCROLL MAGIC ANIMATIONS-->
 <!-- INÍCIO FONTS -->
 		<link href="https://fonts.googleapis.com/css?family=Monda:400,700|Saira+Semi+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 <!-- FIM FONTS -->
@@ -40,7 +42,7 @@
 				<span>LANÇAMENTO MUNDIAL</span> 
 			</div>
 
-         <div class="grid-item grid-item-04">
+         <div class="grid-item grid-item-04 fade-in-anime">
          	<div class="klenb-vert down-up-anime-slow">
 				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 2.64152 10.28071" xml:space="preserve">
   				<path fill="none" stroke="#fe4f32" stroke-miterlimit="22.9256" stroke-width=".05" d="M.97636 7.62831l-.39096.19367.18189.13794h.20907v.22153H.025v-.22153h.43899L.025 7.65277v-.25415l.36967.27997.58169-.29492v.24464zM.025 7.28038v-.2256h.75293v-.3955h.19843v.6211H.025zm0-.75021V5.8751h.19571v.42947h.1726v-.34385H.5863v.34385h.19435V5.8751h.19571v.65507H.025zm0-1.37402v-.21881h.95136v.20929l-.58984.35608h.58984v.21881H.025v-.22923l.55949-.33614H.025zm0-.40909v-.5246c0-.06524.01835-.1128.05505-.1427.03669-.0299.10034-.04485.19095-.04485.07067 0 .12164.00679.15289.02038.03126.01359.05323.03942.06592.07747.00906-.04077.03126-.06909.06659-.08494.03534-.01586.0897-.02379.16309-.02379.09514 0 .16173.01495.19979.04485.03805.0299.05708.07747.05708.14271v.53547H.025zm.37783-.2256v-.23512c0-.00997-.00544-.01677-.01631-.02039-.01087-.00362-.03715-.00544-.07883-.00544-.0299 0-.05164.00091-.06523.00272-.01359.00181-.02198.00431-.02515.00748-.00317.00317-.00475.00838-.00475.01563v.23512h.19027zm.38598 0v-.246c0-.00724-.00182-.01245-.00544-.01563-.00362-.00317-.01314-.00566-.02854-.00747-.0154-.00181-.03941-.00272-.07203-.00272-.03262 0-.05663.00091-.07203.00272-.01541.00181-.02492.0043-.02854.00747-.00363.00318-.00544.00839-.00544.01563v.246h.21202zM.025 3.30237v-.21881h.95136v.20929l-.58984.35608h.58984v.21881H.025v-.22923l.55949-.33614H.025zm.95136-.94456v.36559c0 .12503-.06252.18755-.18755.18755H.21256c-.12504 0-.18756-.06252-.18756-.18755v-.36559c0-.06343.01541-.11054.04621-.14135.03081-.0308.07792-.04621.14135-.04621h.57625c.12503 0 .18755.06252.18755.18756zm-.72983.32754h.5083c.01721 0 .02582-.00861.02582-.02583v-.23784c0-.00996-.00181-.01676-.00543-.02038-.00363-.00363-.01042-.00544-.02039-.00544h-.5083c-.00996 0-.01676.00181-.02038.00544-.00363.00362-.00544.01042-.00544.02038v.23784c0 .00997.00181.01676.00544.02039.00362.00362.01042.00544.02038.00544zM.025 1.02999h.95136v.22017H.39875l.45665.1914v.1495l-.45665.19186h.57761v.21473H.025v-.25143l.53027-.23444L.025 1.27915v-.24916zM.77522.32417v.31032l.20114.05527v.23286L.025.64016V.3244L.97636.03378v.22878L.77522.32417zM.58359.38306L.2112.48228l.37239.10057V.38306zm.68226 8.57572h-.4253v1.29693H.45264V8.95878H.025v-.33884h1.24085v.33884zm.5211.78283v.00935c0 .05297.00156.09191.00468.11684.00311.02493.0074.04089.01285.0479.00545.00701.01441.01052.02687.01052h.35286c.01246 0 .02142-.00312.02687-.00935.00546-.00623.00974-.02181.01286-.04673.00311-.02493.00467-.06388.00467-.11684 0-.05297-.00156-.09192-.00467-.11684-.00312-.02493-.0074-.04051-.01286-.04674-.00545-.00623-.01441-.00935-.02687-.00935H1.815v-.32248h.35052c.01713 0 .02882-.00896.03505-.02687.00623-.01792.00935-.06037.00935-.12736 0-.06854-.00312-.11139-.00935-.12852-.00623-.01714-.01792-.02571-.03505-.02571h-.31547c-.01714 0-.02882.00857-.03505.02571-.00624.01713-.00935.05998-.00935.12852v.02804h-.38791v-.08178c0-.15891.0257-.27029.07711-.33417.05141-.06387.1332-.09581.24537-.09581h.53513c.11216 0 .19395.03155.24536.09464.05141.0631.07712.17254.07712.32833 0 .12307-.0113.21109-.03389.26406-.02259.05296-.0666.09035-.13203.11216.07011.01714.1184.05531.14489.11451.02648.05919.03972.15267.03972.28041 0 .16358-.0257.27808-.07711.34351-.05141.06543-.1332.09815-.24537.09815h-.57252c-.11216 0-.19395-.03272-.24536-.09815-.05141-.06543-.07712-.17993-.07712-.34351v-.07244h.38791z"/>
@@ -62,7 +64,7 @@
 
 
 <!-- INÍCIO IMAGEM 1 CLEMBNOMA -->
-		<div class="grid-klenbtop grid-bg1">
+		<div class="grid-klenbtop grid-bg1 fade-in-anime">
 			<div class="grid-lead lead-top-1">
 				<p>KLENBNOMA T3 ajuda o organismo a produzir mais testosterona e HGH naturalmente e sem os efeitos colaterais causados ​​pelos esteróides anabolizantes.</p>
 			</div>
@@ -70,15 +72,15 @@
 				<img class="imagem-klenb-top centralizar-imagem shadow-image-product up-down-anime-slow" src="assets/klenb2.png">
 			</div>
 
-			<div class="lead-top-3">
+
+		</div>
+
+			<div class="lead-top-3 fade-in-anime">
 		<div class="cta1-container">
 			<div id="scrollToForm" class="cta1 cta1a buthov"><p>CONQUISTE SEUS SONHOS COM KLENBNOMA T3</p>
 			</div>
 		</div>
 		</div>
-
-		</div>
-
 
 <!-- FIM IMAGEM 1 CLEMBNOMA -->
 
@@ -88,8 +90,8 @@
 
 
 <!-- INÍCIO GRÁFICO 12 SEMANAS -->
-		<div class="graf1-container">
-			<div class="graf1-item graf1a">
+		<div class="graf1-container fade-in-anime">
+			<div class="graf1-item graf1a down-up-anime">
 				<p class="text-justify"><strong>Os melhores ingredientes</strong> de KLENBNOMA T3 proporcionam <strong>mais energia e regeneração mais rápida após cada treino.</strong> Com o KLENBNOMA T3 você está instantaneamente de volta ao jogo!</p>
 			</div>
 			<div class="line graf1-item graf1b"></div>
@@ -100,7 +102,7 @@
 				<div class="graf1-item graf1d"><h3>KLENBNOMA T3</h3></div>
 				<div class="graf1-item graf1e"><h3>PLACEBO</h3></div>
 
-<div class="graf1-item graf1f">
+<div class="graf1-item graf1f down-up-anime">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 3.111 2.641" xml:space="preserve">
   <defs>
     <linearGradient id="a" x1="1.712" x2="1.712" y1="2.541" y2="1.501" gradientUnits="userSpaceOnUse">
@@ -136,7 +138,7 @@
 <h3>+72%</h3>
 </div>
 
-<div class="graf1-item graf1g">
+<div class="graf1-item graf1g down-up-anime">
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 3.111 2.641" xml:space="preserve">
   <defs>
     <linearGradient id="a" x1="1.713" x2="1.712" y1="2.634" y2="1.801" gradientUnits="userSpaceOnUse">
@@ -150,7 +152,7 @@
 <h3>+7%</h3>
 </div>
 			<div class="line graf1-item graf1h"></div>
-			<div class="graf1-item graf1i">
+			<div class="graf1-item graf1i down-up-anime">
 				<p class="text-justify">Testosterona e HGH são essenciais para ganho muscular e queima de gordura. <strong>Nossa fórmula de ativadores hormonais</strong> permite que você obtenha os músculos que deseja, a uma velocidade que nunca imaginou ser possível.</p>
 			</div>
 		</div>
@@ -160,7 +162,7 @@
 
 
 <!-- INICIO TABELA DOSE -->
-		<div class="grid-tabela-dose-container">
+		<div class="grid-tabela-dose-container down-up-anime">
 			<div class="grid-tabela-dose-linhas">
 				<h1 class="dose-item grid-dose">Dose</h1>
 				<p class="dose-item grid-2caps">2 cápsulas ao dia, ingerir com 200ml de água.</p>
@@ -202,7 +204,7 @@
 
 
 <!-- INICIO TABELA LOGOS PATENTS -->
-				<div class="grid-patents-container">
+				<div class="grid-patents-container fade-in-anime">
 					<div class="grid-patent-item">
 						<div class="patents-logos">
 							
@@ -232,10 +234,10 @@
 
 
 <!-- INÍCIO CLEMB 2 -->
-<div class="klenb-degrade-patent-container">
+<div class="klenb-degrade-patent-container fade-in-anime">
 <div class="clemb-tabela">
-	<div class="fim-tabela fadeklenb">
-		<img class="centralizar-imagem down-up-anime shadow-image-product1" src="assets/klenb2.png" width="auto" height="370px">
+	<div class="fim-tabela up-down-anime">
+		<img class="centralizar-imagem  shadow-image-product1" src="assets/klenb2.png" width="auto" height="370px">
 	</div>
 	<div class="fundo-degrade"></div>
 	<div class="fundo-cinza"></div>
@@ -246,14 +248,14 @@
 
 
 <!-- INÍCIO BRAZÃO 1 -->
-<div class="testo-beneficios1-container">
-	<div class="badget1 beneficios1-item">
-		<img class="shadow-image-product1 down-up-anime-slow" src="assets/tstbadget.png">
+<div class="testo-beneficios1-container fade-in-anime">
+	<div class="badget1 beneficios1-item down-up-anime">
+		<img class="shadow-image-product1" src="assets/tstbadget.png">
 	</div>
 <!-- FIM BRAZÃO 1 -->
 
 
-	<div class="descricao1 beneficios1-item">
+	<div class="descricao1 beneficios1-item down-up-anime">
 		<p class="text-justify">Dentre os motivos dele ser o número 1 entre os suplementos é que os <strong>seus resultados aparecem rapidamente, em apenas 12 semanas de uso,</strong> para qualquer tipo de pessoa e estrutura corporal, seja ela gorda ou magra, se já pratica exercícios ou não. Além disso, dentre os produtos disponíveis no mercado, <strong>ele é um dos poucos reconhecidos pela Anvisa e que não causa danos à saúde.</strong>
 		<br>
 		Espero sinceramente espero que você tenha percebido os benefícios do KLENBNOMA T3 e o quanto KLENBNOMA T3 funciona mesmo …
@@ -268,7 +270,7 @@
 
 
 <!-- INÍCIOS ICONES BENEFÍCIOS -->
-	<div class="beneficios-icons">
+	<div class="beneficios-icons fade-in-anime">
 
 <!-- INÍCIO ÍCONE 1 -->
 		<div class="ben-icon1">
@@ -363,30 +365,30 @@
 
 
 <!-- INÍCIO FOTO 1 -->
-<div class="foto1-cta2-container">
+<div class="foto1-cta2-container fade-in-anime">
 	<div class="foto1">
 		<img src="assets/foto1.jpg" width="97%" height="97%">
 	</div>
+<!-- INÍCIO CTA2 -->
 		<div class="grid-cta2-container">
 		<div class="cta2-container">
-			<div id="scrollToForm1" class="cta1 cta1a buthov">
+			<div id="scrollToForm1" class="cta2 cta2a buthov">
 			<p>ATINJA TODOS OS SEUS OBJETIVOS COM KLENBNOMA T3</p>
 			</div>
 		</div>
 	</div>
+<!-- FIM CTA 2-->
 
 </div>
 <!-- FIM FOTO  -->
 
 
-<!-- INÍCIO CTA2 -->
 
-<!-- FIM CTA 2-->
 
 
 
 <!-- INÍCIO BLOCO RESULTADOS -->
-<div class="grid-resultados-container">
+<div class="grid-resultados-container fade-in-anime">
 
 <!-- INÍCIO DE LEAD COM FOTO BLOCO RESUTADOS -->
 <div class="grid-resultados-lead-container">
@@ -405,7 +407,7 @@
 
 
 <!-- INÍCIO DE BLOCO 1 PRINCIPAL ANTES E DEPOIS -->
-<div class="grid-blocos-antesdepois">
+<div class="grid-blocos-antesdepois fade-in-anime">
 <div class="grid-antesdepois1-container">
 	<div class="antesdepois1-fundo-vermelho"></div>
 	<div class="antesdepois1-lead antesdepois1-item">
@@ -469,18 +471,18 @@
 <!-- FIM BLOCO RESULTADOS -->
 
 <!-- INÍCIO CTA3 -->
-	<div class="cta3-container">
-			<div id="scrollToForm2" class="cta1 cta3a buthov">
+	<div class="cta3-container fade-in-anime">
+			<div id="scrollToForm2" class="cta3 cta3a buthov">
 			<p>CONQUISTE O ABDÓMEN DEFINIDO</p>
 			</div>
 		</div>
 <!-- FIM CTA 3-->
-<div class="foto2">
+<div class="foto2 fade-in-anime">
 <img id="foto2" src="assets/foto2.jpg" width="100%" height="auto">
 </div>
 
 <!-- INÍCIO "COMO KLENB FUNCIONA" -->
-<div class="grid-como-funciona-container">
+<div class="grid-como-funciona-container fade-in-anime">
 
 <!-- INÍCIO FOTO3 -->
 
@@ -500,7 +502,7 @@ Mas há uma abundância de suplementos de testosterona por aí que são capazes 
 </div>
 <!-- FIM "COMO KLENB FUNCIONA" -->
 <!-- INÍCIO CTA4 -->
-	<div class="cta4-container">
+	<div class="cta4-container fade-in-anime">
 			<div id="scrollToForm3" class="cta1 cta4a buthov">
 			<p>CLIQUE AQUI, MUDE AGORA SEU CORPO PARA MELHOR!</p>
 			</div>
@@ -510,7 +512,7 @@ Mas há uma abundância de suplementos de testosterona por aí que são capazes 
 
 
 <!-- INÍCIO ELEMENTOS DA FÓRMULA -->
-<div class="grid-elementos1-container">
+<div class="grid-elementos1-container fade-in-anime">
 
 <!-- INÍCIO QUADRO 1 ELEMENTOS -->
 <div class="bloco-text-elementos1">
@@ -617,7 +619,7 @@ Mas há uma abundância de suplementos de testosterona por aí que são capazes 
 
 
 <!-- INÍCIO CTA5 -->
-	<div class="cta5-container">
+	<div class="cta5-container fade-in-anime">
 			<div id="scrollToForm4" class="cta1 cta5a buthov">
 			<p>ALCANÇE O CORPO PERFEITO E MUDE DE VIDA</p>
 			</div>
@@ -629,7 +631,7 @@ Mas há uma abundância de suplementos de testosterona por aí que são capazes 
 
 
 <!-- INÍCIO BLOCO KLENBNOMA E BADGES -->
-<div class="grid-badges-container">
+<div class="grid-badges-container fade-in-anime">
 		<div class="imagem-klenb3">
 			<img class="shadow-image-product1 down-up-anime" src="assets/klenb2.png" height="300px">
 		</div>
@@ -674,7 +676,7 @@ Mas há uma abundância de suplementos de testosterona por aí que são capazes 
 
 
 <!-- INÍCIO CTA 6 -->
-<div class="cta6-container">
+<div class="cta6-container fade-in-anime">
 <div id="scrollToForm5" class="cta1 cta1a buthov"><p>FAÇA SEU PEDIDO HOJE MESMO, CONQUISTE SEUS SONHOS</p>
 </div>
 </div>
@@ -686,7 +688,7 @@ Mas há uma abundância de suplementos de testosterona por aí que são capazes 
 
 
 <!-- INÍCIO BLOCO TESTO QUEDA -->
-<div class="grid-testo-queda-container">
+<div class="grid-testo-queda-container fade-in-anime">
 	<div class="testo-queda-textos-top">
 		<h2>A QUEDA DA TESTOSTERONA OCORRE NATURALMENTE E ACARRETA MUITOS MALES</h2>
 		<p class="text-justify">Como quase todo mundo sabe, <strong>a testosterona é o principal hormônio masculino e a responsável por diversas funções orgânicas,</strong> como a manutenção da fertilidade, o aumento da libido e do desejo sexual e muito mais.<br>
@@ -753,7 +755,7 @@ Mas há uma abundância de suplementos de testosterona por aí que são capazes 
 
 
 <!-- INÍCIO CTA 7 -->
-<div class="cta7-container">
+<div class="cta7-container fade-in-anime">
 <div id="scrollToForm6" class="cta1 cta1a buthov"><p>CLIQUE AQUI, VENÇA SEUS OBSTÁCULOS</p>
 </div>
 </div>
@@ -766,7 +768,7 @@ Mas há uma abundância de suplementos de testosterona por aí que são capazes 
 
 <!-- INÍCIO BLOCO KLENB ÚNICO -->
 
-<div class="grid-bloco-unico-container">
+<div class="grid-bloco-unico-container fade-in-anime">
 <div class="lead-unico">
 	<h1>KLENBNOMA T3 É ÚNICO!</h1>
 	<p class="text-justify">O KLENBNOMA T3 contém <strong>uma fórmula única de ativação hormonal</strong> que o ajuda a atingir o tamanho desejado com incrível velocidade e segurança!
@@ -831,7 +833,7 @@ O seu esforço é agora maximizado e melhorado:</p>
 
 
 <!-- INÍCIO CTA 8 -->
-<div class="cta8-container">
+<div class="cta8-container fade-in-anime">
 <div id="scrollToForm7" class="cta1 cta1a buthov"><p>CLIQUE AQUI E VIVA MELHOR</p>
 </div>
 </div>
@@ -841,7 +843,7 @@ O seu esforço é agora maximizado e melhorado:</p>
 <!-- FIM BLOCO KLENB ÚNICO -->
 
 <!-- INÍCIO BLOCO 10% MENOS GORDURA -->
-<div class="grid-bloco-percent-container">
+<div class="grid-bloco-percent-container fade-in-anime">
 	<div class="item-lead-percent">
 		<h1 class="text-g1">VOCÊ SABE</h1>
 		<h2 class="text-p1">A DIFERENÇA QUE 10% DE GORDURA FAZ?</h2>
@@ -899,7 +901,7 @@ Estudos comprovam que, quanto maior o percentual de gordura, menor o rendimento 
 <!-- FIM BLOCO 10% MENOS GORDURA -->
 
 <!-- INÍCIO CTA 9 -->
-<div class="cta9-container">
+<div class="cta9-container fade-in-anime">
 <div id="scrollToForm8" class="cta1 cta1a buthov"><p>CLIQUE AQUI, DERRETA SUAS GORDURAS</p>
 </div>
 </div>
@@ -907,11 +909,11 @@ Estudos comprovam que, quanto maior o percentual de gordura, menor o rendimento 
 
 
 <!-- INÍCIO BLOCO EXPERIÊNCIA DO CONSUMIDOR -->
-<div class="grid-experiencia-consumidor">
+<div class="grid-experiencia-consumidor fade-in-anime">
 
 		<div class="item-experiencia-lead">
 			<h2>Valorizamos muito sua experiência como cliente!</h2>
-			<p class="text-justify">Por este motivo, realizamos pesquisas periódicas com nossos consumidores.
+			<p>Por este motivo, realizamos pesquisas periódicas com nossos consumidores.
 Vela abaixo os níveis de satisfação.</p>
 		</div>
 		<div class="item-experiencia-icons">
@@ -928,7 +930,7 @@ Vela abaixo os níveis de satisfação.</p>
 						<p>83% muito satisfeito</p>
 					</div>
 					<div class="experiencia-line"></div>
-					<div class="experiencia-line-cofre left-right-width-anime"></div>
+					<div class="experiencia-line-cofre"></div>
 
 				</div>
 			</div>
@@ -945,7 +947,7 @@ Vela abaixo os níveis de satisfação.</p>
 						<p>96% muito satisfeito</p>
 					</div>
 					<div class="experiencia-line"></div>
-					<div class="experiencia-line-pack anime-pack-barra"></div>
+					<div class="experiencia-line-pack"></div>
 
 				</div>
 			</div>
@@ -963,7 +965,7 @@ Vela abaixo os níveis de satisfação.</p>
 						<p>78% muito satisfeito</p>
 					</div>
 					<div class="experiencia-line"></div>
-					<div class="experiencia-line-award anime-satisfacao-barra"></div>
+					<div class="experiencia-line-award"></div>
 
 				</div>
 			</div>
@@ -980,7 +982,7 @@ Vela abaixo os níveis de satisfação.</p>
 						<p>82% muito satisfeito</p>
 					</div>
 					<div class="experiencia-line"></div>
-					<div class="experiencia-line-delivery anime-delivery-barra"></div>
+					<div class="experiencia-line-delivery"></div>
 
 				</div>
 			</div>
@@ -989,20 +991,20 @@ Vela abaixo os níveis de satisfação.</p>
 </div>
 
 
-<div class="imagem1-icons-container">
+<div class="imagem1-icons-container fade-in-anime">
 	<div class="foto6">
 <img class="imagem-percent" src="assets/foto6.jpg">
 </div>
 </div>
 
-<div class="degrade-experiencia"></div>
+<div class="degrade-experiencia fade-in-anime"></div>
 
 </div>
 
 <!-- FIM BLOCO EXPERIÊNCIA DO CONSUMIDOR -->
 
 <!-- INÍCIO COMPRA SEGURA -->
-<div class="grid-container-compra-segura">
+<div class="grid-container-compra-segura fade-in-anime">
 	<div class="compra-segura-lead">
 		<h1>Não está acostumado a comprar pela internet?</h1>
 		<p>Fique tranquilo, comprar KLENBNOMA T3 É FÁCIL E CONFIÁVEL:</p>
@@ -1035,7 +1037,7 @@ político de devolução.</p>
 <!-- FIM COMPRA SEGURA -->
 
 <!-- INÍCIO CTA 10 -->
-<div class="cta10-container">
+<div class="cta10-container fade-in-anime">
 <div id="scrollToForm9" class="cta1 cta1a buthov"><p>CLIQUE AQUI, OS ESTOQUES SÃO LIMITADOS</p>
 </div>
 </div>
@@ -1043,13 +1045,13 @@ político de devolução.</p>
 
 
 <!-- INÍCIO BLOCO MADE IN USA -->
-<div class="made-in-usa-container">
+<div class="made-in-usa-container fade-in-anime">
 	<div class="imagem-klenb-made-in-usa">
 		<img class="shadow-image-product1 down-up-anime" src="assets/klenb2.png" height="300px">
 	</div>
 	<div class="texto-made-in-usa">
 		<h2>Produto desenvolvido nos Estados Unidos!</h2>
-		<p class="text-justify">KLEMBNOMA T3 é resultado de anos de estudos e pesquisas científicas para poder desenvolver um suplemento vitamínico que te proporcione os mais altos níveis de performance no seu dia a dia e resultados incríveis no menor tempo possível.</p>
+		<p>KLEMBNOMA T3 é resultado de anos de estudos e pesquisas científicas para poder desenvolver um suplemento vitamínico que te proporcione os mais altos níveis de performance no seu dia a dia e resultados incríveis no menor tempo possível.</p>
 	</div>
 
 	<div class="imagem-made-in-usa">
@@ -1064,9 +1066,9 @@ político de devolução.</p>
 
 
 <!-- INÍCIO BLOCO ANVISA -->
-<div class="anvisa-container">
+<div class="anvisa-container fade-in-anime">
 	<div class="item-anvisa-texto">
-		<p class="text-justify">Sempre tente tomar a quantidade orientada pelo seu médico e descrita pelo fabricante. Importante salientar que ele é um produto aprovado pela ANVISA – o órgão regulador do Ministério da Saúde do Brasil o que já trás uma enorme credibilidade ao mesmo.</p>
+		<p>Sempre tente tomar a quantidade orientada pelo seu médico e descrita pelo fabricante. Importante salientar que ele é um produto aprovado pela ANVISA – o órgão regulador do Ministério da Saúde do Brasil o que já trás uma enorme credibilidade ao mesmo.</p>
 	</div>
 	<div class="item-logo-anvisa">
 		<img class="logo-anvisa-svg" src="assets/anvisa.svg">
@@ -1074,7 +1076,7 @@ político de devolução.</p>
 	<div class="item-anvisa-texto1">
 		<div class="anvisa-lead">
 		<h2>Mas afinal O que a Anvisa diz sobre o KLEMBNOMA T3? </h2>
-		<p class="text-justify">Ele é um suplemento alimentar liberado porém você precisa tomar somente alguns cuidados no seu consumo  para não prejudicar o seu organismo, tudo  o que  é em grande  quantidade  pode acabar prejudicando o funcionamento dos seus órgãos, e a  intenção deste suplemento  é totalmente  ao contrário. Este é um produto super seguro para o consumo, não contém ingredientes transgênicos em sua formulação, não contém: soja, glúten, açúcar, lactose, derivados de leite.</p>
+		<p>Ele é um suplemento alimentar liberado porém você precisa tomar somente alguns cuidados no seu consumo  para não prejudicar o seu organismo, tudo  o que  é em grande  quantidade  pode acabar prejudicando o funcionamento dos seus órgãos, e a  intenção deste suplemento  é totalmente  ao contrário. Este é um produto super seguro para o consumo, não contém ingredientes transgênicos em sua formulação, não contém: soja, glúten, açúcar, lactose e derivados de leite.</p>
 		</div>
 		<div class="anvisa-icons">
 			<div class="anvisa-icon1">
@@ -1108,48 +1110,43 @@ político de devolução.</p>
 
 
 <!-- INÍCIO CTA 10 -->
-<div class="cta11-container">
-<div id="scrollToForm10" class="cta1 cta1a buthov"><p>CLIQUE AQUI E COMPRE AGORA</p></div>
+<div class="cta11-container fade-in-anime">
+<div id="scrollToForm10" class="cta11 cta11a buthov"><p>CLIQUE AQUI E COMPRE AGORA</p></div>
 </div>
 <!-- FIM CTA 10 -->
 
 
 <!-- INÍCIO BLOCO FAQ -->
-<div class="bloco-faq-container">
+<div class="bloco-faq-container fade-in-anime">
 
 <div class="grid-lead1-faq">
-	<div class="shadow-image-product1">
-	<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 1.421 1.335" xml:space="preserve">
-  <path fill="none" stroke="#fefefe" stroke-miterlimit="22.926" stroke-width=".075" d="M.754.037a.63.63 0 1 1-.35 1.154.946.946 0 0 1-.363.052l-.002-.027a.66.66 0 0 0 .215-.165.63.63 0 0 1 .5-1.013z"/>
-  <path fill="#fefefe" fill-rule="nonzero" d="M.645.804h.156V.757L.814.743h.102l.07-.07v-.19L.904.403H.596l-.079.08V.58h.155V.531L.69.513h.12l.021.02v.075L.817.622H.71L.645.686v.118zm0 .162h.156V.85H.645v.116z"/>
-</svg>
-</div>
+	<img class="shadow-image-product1" src="assets/faq.svg">
 </div>
 <div class="grid-lead2-faq">
 	<h1>PERGUNTAS FREQUENTES</h1>
 </div>
 </div>
 <!-- INÍCIO BLOCO ACCORDION -->
-<div class="grid-faq1-accordion">
+<div class="grid-faq1-accordion fade-in-anime">
 <div id="lingulo-accordion">
 			<div>
 				<h3>Como tomar KLENBNOMA T3?</h3>
-				<p class="text-justify">O suplemento KLENBNOMA T3 pode ser usado por pessoas que praticam exercício físico com frequência ou não, tendo seu uso um pouco diferenciado para ambos os casos.<br>
+				<p>O suplemento KLENBNOMA T3 pode ser usado por pessoas que praticam exercício físico com frequência ou não, tendo seu uso um pouco diferenciado para ambos os casos.<br>
 No caso das pessoas que treinam, é indicado o uso de uma cápsula logo ao acordar e uma outra cápsula após o treino. Deve tomar de seis dias na semana e dar a folga de um dia, que geralmente é aos domingos pois é o dia que a pessoa não pratica atividade física.<br>
 Já para as pessoas que não praticam musculação ou alguma outra atividade com frequência, o indicado é tomar uma cápsula 2 horas antes de almoçar e uma quando for dormir, para que o KLENBNOMA T3 aja durante o sono, melhorando o ganho de massa para quem não treina. Mas vale ressaltar que os melhores resultados aparecem apenas para pessoas que tem uma vida ativa e que faz algum tipo de atividade física diário, seja musculação, corrida, bicicleta ou outras de alta intensidade.</p>
 			</div>
 			<div>
 				<h3>KLENBNOMA T3 possui efeitos colaterais?</h3>
-				<p class="text-justify">Por ser um suplemento natural e de extrema qualidade ele não possui nenhum tipo de efeito colateral para você e para seu organismo, enquanto você usar ele vai continuar funcionando perfeitamente, dessa forma mesmo que você tome por 3 meses ou 3 anos ele continuar causando os mesmos benefícios e não vai fazer mal nenhum para sua saúde e se você para de tomar também não vai perder o que já foi conquistado.<br>
+				<p>Por ser um suplemento natural e de extrema qualidade ele não possui nenhum tipo de efeito colateral para você e para seu organismo, enquanto você usar ele vai continuar funcionando perfeitamente, dessa forma mesmo que você tome por 3 meses ou 3 anos ele continuar causando os mesmos benefícios e não vai fazer mal nenhum para sua saúde e se você para de tomar também não vai perder o que já foi conquistado.<br>
 				O ideal é que você tome uma cápsula de KLENBNOMA T3 antes do treino e outra depois do treino, isso sempre que você for treinar, é preciso tomar o tempo que achar necessário sempre seguindo a dose recomendada na embalagem, porém, caso você queira ter resultados mais rápidos é preciso consultar seu endocrinologista para que ele aumente a dose corretamente de acordo com seu corpo, metabolismo, hábitos e etc.</p>				
 			</div>
 			<div>
 				<h3>KLENBNOMA T3 é doping?</h3>
-				<p class="text-justify">O uso dos nutrientes presentes na fórmula é atualmente permitido pela maioria das federações esportivas. Mas caso você seja um atleta profissional, fique de olho em eventuais mudanças de regras.</p>				
+				<p>O uso dos nutrientes presentes na fórmula é atualmente permitido pela maioria das federações esportivas. Mas caso você seja um atleta profissional, fique de olho em eventuais mudanças de regras.</p>				
 			</div>
 			<div>
 				<h3>Por quanto tempo devo utilizar o KLENBNOMA T3?</h3>
-				<p class="text-justify">Você pode utilizar o suplemento até atingir seus objetivos e então alterar meses ou trimestres de uso e não uso do produto para manter a massa muscular adquirida.</p>				
+				<p>Você pode utilizar o suplemento até atingir seus objetivos e então alterar meses ou trimestres de uso e não uso do produto para manter a massa muscular adquirida.</p>				
 			</div>
 		</div>
 </div>
@@ -1158,7 +1155,7 @@ Já para as pessoas que não praticam musculação ou alguma outra atividade com
 <!-- INÍCIO BLOCO FAQ -->
 
 <!-- INÍCIO BLOCO FORMULÁRIO -->
-<div class="grid-container-form">
+<div class="grid-container-form fade-in-anime">
 	<div class="imagem-form-lead">
 		<img class="imagem-percent" src="assets/desconto.jpg">
 	</div>
@@ -1199,7 +1196,7 @@ que tal garantir o produto hoje mesmo?
 <!-- FIM BLOCO FORMULÁRIO -->
 
 <!-- INÍCIO VOLTAR AO TOPO -->
-<div id="toTop" class="voltar-ao-topo">
+<div id="toTop" class="voltar-ao-topo fade-in-anime">
 	<a name="id-form"/>
 	<h2>Voltar ao topo</h2>
 	<div class="copyright">
@@ -1225,7 +1222,14 @@ que tal garantir o produto hoje mesmo?
 <!-- JAVASCRIPT SCROLL TO FORM DOWN -->
 <script type="text/javascript" src="scroll-to-form-footer.js"></script>
 
+<!-- JAVASCRIPT SCROLL MAGIC -->
+<script src="main.js"></script>
 
+
+<!-- Include ScrollMagic and GSAP plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.0/TweenMax.min.js"></script>
+    <script src="ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.min.js"></script>
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 <!-- INÍCIO ITENS JAVASCRIPT -->	
